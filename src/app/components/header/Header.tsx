@@ -23,10 +23,10 @@ export default function Header() {
 
 
   return (
-    <div className="sticky top-4 text-white my-4">
-    <nav className={`flex p-4 justify-between mx-36 duration-500 rounded-full ${bgColor}`}>
+    <div className="sticky top-0 text-white">
+    <nav className={`flex p-4 justify-between duration-500 md:px-24 px-12 ${bgColor}`}>
       {/* <img className="w-28 h-12" src="/logo.png"/> */}
-      <h1 className="text-center">ALG</h1>
+      <h1 className="text-center">// ALG <span className="text-[#f3c242]">Dev</span></h1>
       <ul className="flex flex-row gap-4 px-8 hover:cursor-default text-center items-center ">
         <li className="hover:text-[#f3c242]">Cualidades</li>
         <li className="hover:text-[#f3c242]">Proyectos</li>
