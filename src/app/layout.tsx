@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Exo_2 } from "next/font/google";
 import "./globals.css";
+import AOSInitializer from "@/utils/AOSInitializer"; // Importar el inicializador de AOS
 
-const exo_2 = Exo_2({ 
+const exo_2 = Exo_2({
   subsets: ["latin"],
-  weight: '300', 
+  weight: "300",
 });
 
 export const metadata: Metadata = {
@@ -19,8 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className={exo_2.className}>{children}</body>
+      <body className={exo_2.className}>
+        <AOSInitializer /> {/* Inicializa AOS */}
+        {children}
+      </body>
     </html>
   );
 }
+

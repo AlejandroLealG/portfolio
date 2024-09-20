@@ -1,5 +1,6 @@
 import Header from '@/app/components/header/Header'
-import Initial from '@/app/components/sobreMi/Initial'
+import Initial from '@/app/components/aboutMe/Initial'
+import Qualities from './components/qualities/Qualities'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <Header />
       <div className='sm:px-12 lg:px-20 xl:px-44'>
         <Initial />
-        <p>cualidades</p>
+        <Qualities />
         <p>proyectos</p>
         <p>sobre mi</p>
         <p>contacto</p>
