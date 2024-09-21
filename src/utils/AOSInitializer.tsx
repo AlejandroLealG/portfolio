@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 const AOSInitializer = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000,  // Duración de las animaciones
+      duration: 1500,  // Duración de las animaciones
       easing: "ease-in-out", // Suavizado
       once: false, // Permite que las animaciones se repitan
     });
