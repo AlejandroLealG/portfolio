@@ -1,6 +1,7 @@
 import Header from '@/app/components/header/Header'
 import Initial from '@/app/components/aboutMe/Initial'
-import Qualities from './components/qualities/Qualities'
+import Qualities from '@/app/components/qualities/Qualities'
+import Footer from '@/app/components/footer/Footer';
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <p>sobre mi</p>
         <p>contacto</p>
       </div>
-      <p>footer</p>
+      <Footer />
     </main>
   );
 }
