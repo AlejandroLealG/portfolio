@@ -8,9 +8,9 @@ import Link from 'next/link';
 const Carousel = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
-  const totalSlides = 3; // Cambia este valor según el número de diapositivas que tengas
+  const totalSlides = 3;            // Cantidad de imagenes del slide
 
-  // Mueve las diapositivas
+  // Movimiento del slide
   const moveSlide = (direction:any) => {
     const newIndex = (slideIndex + direction + totalSlides) % totalSlides;
     setSlideIndex(newIndex);
@@ -28,7 +28,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       moveSlide(1);
-    }, 6000); // Cambia cada 3 segundos
+    }, 6000); // Cambia cada 6 segundos automaticamente
     return () => clearInterval(interval);
   }, [slideIndex]);
 

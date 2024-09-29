@@ -28,10 +28,10 @@ export default function Header() {
       {/* <img className="w-28 h-12" src="/logo.png"/> */}
       <h1 className="text-center">// ALG <span className="text-[#f3c242]">Dev</span></h1>
       <ul className="flex flex-row gap-4 px-8 hover:cursor-default text-center items-center ">
-        <li className="hover:text-[#f3c242]">Cualidades</li>
-        <li className="hover:text-[#f3c242]">Proyectos</li>
-        <li className="hover:text-[#f3c242]">Sobre mi</li>
-        <li className="hover:text-[#f3c242]">Contacto</li>
+        <li className="hover:text-[#f3c242]"> <a href="#qualities">Cualidades</a></li>
+        <li className="hover:text-[#f3c242]"><a href="#projects">Projectos</a></li>
+        <li className="hover:text-[#f3c242]"><a href="#aboutMe">Sobre mi</a></li>
+        <li className="hover:text-[#f3c242]"><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
     </div>
