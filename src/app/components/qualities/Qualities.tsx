@@ -4,7 +4,7 @@
 export default function Qualities() {
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-justify pe-4 py-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-justify pe-4 pb-10">
       <div data-aos = "fade-up" data-aos-delay="100">
         <h2 className="text-xl font-bold">Diseño responsivo y adaptativo</h2>
         <p>Como desarrollador front-end, garantizo que cada página web se vea y 

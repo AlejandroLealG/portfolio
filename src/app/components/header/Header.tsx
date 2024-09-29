@@ -23,7 +23,7 @@ export default function Header() {
 
 
   return (
-    <div className="sticky top-0 text-white">
+    <div className="sticky top-0 text-white z-20">
     <nav className={`flex p-4 justify-between duration-500 md:px-24 px-12 ${bgColor}`}>
       {/* <img className="w-28 h-12" src="/logo.png"/> */}
       <h1 className="text-center">// ALG <span className="text-[#f3c242]">Dev</span></h1>
