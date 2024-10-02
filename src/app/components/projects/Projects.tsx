@@ -42,7 +42,7 @@ const Carousel = () => {
             <p className="text-white">Clon de spotify, aprendiendo a usar Astro con react y svelte.</p>
             <Link href="/pagina1">
               <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded">
-                Visitar
+                Ver codigo
               </button>
             </Link>
           </div>
@@ -57,7 +57,7 @@ const Carousel = () => {
             </p>
             <Link href="/pagina2">
               <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded">
-                Visitar
+                Ver codigo
               </button>
             </Link>
           </div>
@@ -70,7 +70,7 @@ const Carousel = () => {
             <p className="text-white">tari-app, Pagina web astro con enrutamiento</p>
             <Link href="/pagina3">
               <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded">
-                Visitar
+                Ver codigo
               </button>
             </Link>
           </div>

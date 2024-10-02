@@ -11,7 +11,7 @@ export default function Initial() {
           className="size-20 rounded-full"
         />
         <a
-          href=""
+          href="#contact"
           className="bg-[#1f2937e6] rounded-full justify-start h-7 w-52 text-center border border-green-400"
         >Disponible para trabajar
         </a>
